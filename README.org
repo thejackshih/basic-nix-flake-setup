@@ -1,2 +1,15 @@
-# README
-
+* Basic nix flake setup
+basic nix,flake,nix-darwin combo setup example for macOS homebrew user to get start.
+** Requirements
+- nix
+- nix-darwin
+** How to use 
+1. clone
+2. change hostname, default.nix filepath in flake.nix
+3. add packages
+4. 
+    #+BEGIN_SRC bash
+      darwin-rebuild switch --flake .
+    #+END_SRC 
+** Todos
+*** TODO multi-arch setup (work on both macOS and linux)
