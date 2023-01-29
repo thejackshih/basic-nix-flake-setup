@@ -17,7 +17,7 @@ experimental-features = nix-command flakes
   home-manager.users.abc = { pkgs, ... }: {
     home.stateVersion = "22.11";
     home.packages = [
-      pkgs.emacsPgtk
+      # pkgs.emacsPgtk
     ];
   };
 
