@@ -7,10 +7,10 @@ basic nix,flake,nix-darwin combo setup example for macOS homebrew user to get st
 1. clone
 2. change hostname, default.nix filepath in flake.nix
 3. add packages
-4. 
-    #+BEGIN_SRC bash
-      darwin-rebuild switch --flake .
-    #+END_SRC
+4. rebuild
+   #+BEGIN_SRC
+   darwin-rebuild switch --flake .
+   #+END_SRC
 ** How I use
 Most of the pacakge, except for cask, should move into nix eventually.
 Right now I'm using cask to manage font because it's easier to use.
