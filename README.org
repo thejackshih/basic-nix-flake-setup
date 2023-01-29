@@ -10,6 +10,9 @@ basic nix,flake,nix-darwin combo setup example for macOS homebrew user to get st
 4. 
     #+BEGIN_SRC bash
       darwin-rebuild switch --flake .
-    #+END_SRC 
+    #+END_SRC
+** How I use
+Most of the pacakge, except for cask, should move into nix eventually.
+Right now I'm using cask to manage font because it's easier to use.
 ** Todos
 *** TODO multi-arch setup (work on both macOS and linux)
