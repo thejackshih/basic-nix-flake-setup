@@ -33,7 +33,7 @@
             nixpkgs.overlays = overlays;
           }
           # file name and location can be changed.
-          ./hosts/abc/default.nix
+          ./my-setup.nix
         ];
       };
     };
