@@ -25,7 +25,7 @@
       # darwinConfiguration."your-hostname" is mantertory
       # you can check your hostname by running `hostname` in terminal
       # abc for abc.local for example.
-      darwinConfiguration."abc" = darwin.lib.darwinSystem {
+      darwinConfigurations."abc" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           home-manager.darwinModules.home-manager
